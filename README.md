@@ -21,7 +21,7 @@ $ git status
 ## Step 3
 File `file_alpha_that_should_not_be_tracked_by_git.class` was accidentaly staged and committed to the git repository in a previous commit and we would like to rectify this action, by keeping the file on disk, but removing it from git's control (i.e., file can be modified locally, but git will no longer care what changes are being made to it).
 
-What **git command** do you need to issue to remove the file `file_alpha_that_should_not_be_tracked_by_git.class` from git, but still keeping it on disk?
+What **git command** do you need to issue to remove the file `file_alpha_that_should_not_be_tracked_by_git.class` from git, while still keeping it on disk?
 
 HINT: After running this **git command** and issuing a `git status`, the file `file_alpha_that_should_not_be_tracked_by_git.class` should appear in two places:
 * in the staged area (as deleted)
